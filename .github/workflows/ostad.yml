@@ -3,11 +3,11 @@ name: Ostad CI/CD Pipeline
 on:
   push:
     branches:
-      - main
+      - Main
       - dev
   pull_request:
     branches:
-      - main
+      - Main
 
 jobs:
   setup-nginx:
