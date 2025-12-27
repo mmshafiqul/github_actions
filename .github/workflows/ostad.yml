@@ -10,9 +10,10 @@ on:
       - main
 
 jobs:
-  read_the_file:
+  setup-nginx:
     runs-on: self-hosted
+  
     steps:
-      - name: Install the nginx
-        run: sudo apt-get install nginx -y
-      
+        - name: Install The nginx
+          run: sudo apt install nginx -y
+
