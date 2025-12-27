@@ -17,3 +17,6 @@ jobs:
         - name: Install The nginx
           run: sudo apt install nginx -y
 
+        - name: Checkout the repository
+          uses: actions/checkout@v3 
+
